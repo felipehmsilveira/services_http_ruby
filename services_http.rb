@@ -21,7 +21,7 @@ class ServicesController < ApplicationController
 
 		p eval(response.body)
 
-		@data = eval(response.body) // Remember... You should have a view of the gem jbuilder
+		@data = eval(response.body) # Remember... You should have a view of the gem jbuilder
 	end
 
 	private
